@@ -889,6 +889,10 @@ img {
   border-radius: 4px;
 }
 
+.wrapper-two {
+  margin-left: 120px;
+}
+
 .subscribe-button-icon {
   margin-left: 16px;
 }
