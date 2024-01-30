@@ -1368,5 +1368,152 @@ img {
     display: flex;
     gap: 40px;
   }
+
+  .link-style {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    padding: 24px 0;
+  }
+
+  li > .link:hover,
+  li > .link:focus {
+    color: #404bbf;
+  }
+
+  .address-list {
+    font-style: normal;
+    font-size: 12px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+  }
+
+  .address-list > .list {
+    display: flex;
+    gap: 12px;
+  }
+
+
+  /* main */
+
+  /* first section */
+
+  .section-title {
+    background-color: #2e2f42;
+    padding: 112px 0;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)),
+        url(../images/hero-img.jpg);
+        background-repeat:  no-repeat;
+        background-position: center;
+        background-repeat: cover;
+        width: 100%;
+        height: 436px;
+  }
+
+  .header-title {
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+    max-width: 496px;
+    margin: 0 auto 36px;
+  }
+
+  .hero-btn {
+      background-color: #4d5ae5;
+      font-family: inherit;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 1.5;
+      letter-spacing: 0.04em;
+      color: #ffffff;
+      cursor: pointer;
+      display: block;
+      min-width: 169px;
+      height: 56px;
+      border: none;
+      border-radius: 4px;
+      margin: 0 auto;
+        /* HW5 */
+      transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .hero-btn:hover,
+  .hero-btn:focus {
+    background-color: #404bbf ;
+  }
+
+  /* section 2 */
+
+  .visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+    }
+
+    .section-two-list .section-two-header {
+      text-align: left;
+    }
+
+    .section-two-list .section-two-paragraph,
+    .svc .section-two-paragraph {
+      font-size: 16px;
+      line-height: 1.5;
+      letter-spacing: 0.02em;
+      color: #434455;
+      text-align: left;
+    }
+
+    .section-two-title {
+      padding: 96px 0;
+    }
+
+    .list.section-two-list {
+      display: flex;
+      gap: 72px 24px;
+    }
+
+    .card-info {
+      flex: 0 0 calc((100% - 3 * 24px) / 4);
+    }
+
+    /* section 3 */
+
+    .section-three-header {
+      font-size: 36px;
+      line-height: 1.11;
+      text-align: center;
+      text-transform: capitalize;
+      color: #2e2f42;
+      margin-bottom: 72px;
+      letter-spacing: 0.02em;
+    }
+
+    .list-third.list {
+      display: flex;
+      gap: 24px;
+      flex-wrap: wrap;
+    }
+
+    .sec-three-list {
+      flex-basis: calc((100% - 24px) / 2);
+    }
+
+    .list-four.list {
+      gap: 64px 24px;
+    }
+
 }
 
